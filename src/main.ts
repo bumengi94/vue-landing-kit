@@ -1,4 +1,14 @@
-import { createApp } from "vue";
+import { ViteSSG } from "vite-ssg";
 import App from "@@/App";
 
-createApp(App).mount("#root");
+export const createApp = ViteSSG(App, {
+	routes: [
+		{
+			name: "Home",
+			path: "/",
+			component: () => import("@@/pages/index"),
+		},
+	],
+});
+
+createApp(false);

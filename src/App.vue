@@ -1,3 +1,12 @@
+<script setup>
+import { useHead } from "@vueuse/head";
+
+useHead({
+	title: "Landing Page",
+	htmlAttrs: [{ lang: "en" }],
+});
+</script>
+
 <template>
-	<h1>App</h1>
+	<router-view />
 </template>
