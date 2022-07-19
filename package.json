@@ -3,5 +3,13 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"author": "Buğra Mengi <bumengi94@gmail.com>",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^18.0.6",
+		"@vitejs/plugin-vue": "^3.0.1",
+		"vite": "^3.0.2"
+	},
+	"dependencies": {
+		"vue": "^3.2.37"
+	}
 }

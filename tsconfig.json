@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"paths": {
+			"@@": ["./src"],
+			"@@/*": ["./src/*"]
+		}
+	}
+}
