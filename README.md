@@ -1,1 +1,1 @@
-# landing-kit
+# landing kit
