@@ -4,6 +4,6 @@ export default {
 	},
 	title: {
 		home: "home",
-		notfound: "notfound",
+		404: "notfound",
 	},
 };

@@ -5,5 +5,5 @@ const { t } = useI18n();
 </script>
 
 <template>
-	<div>{{ t("title.notfound") }}</div>
+	<div>{{ t("title.404") }}</div>
 </template>

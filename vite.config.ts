@@ -1,9 +1,10 @@
 import { defineConfig } from "vite";
 import vuePlugin from "@vitejs/plugin-vue";
 import { resolve } from "path";
+import Pages from "vite-plugin-pages";
 
 export default defineConfig({
-	plugins: [vuePlugin()],
+	plugins: [vuePlugin(), Pages()],
 	resolve: {
 		alias: { "@@": resolve("./src") },
 		extensions: [".ts", ".vue"],

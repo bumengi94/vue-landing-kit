@@ -1,5 +1,5 @@
 {
-	"name": "landing",
+	"name": "landing-kit",
 	"version": "1.0.0",
 	"main": "index.js",
 	"author": "Buğra Mengi <bumengi94@gmail.com>",
@@ -13,6 +13,7 @@
 		"@vitejs/plugin-vue": "^3.0.1",
 		"@vueuse/head": "^0.7.6",
 		"vite": "^3.0.2",
+		"vite-plugin-pages": "^0.25.0",
 		"vite-ssg": "^0.20.2"
 	},
 	"dependencies": {

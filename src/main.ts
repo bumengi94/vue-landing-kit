@@ -1,6 +1,6 @@
 import { RouterOptions, ViteSSG, ViteSSGContext } from "vite-ssg";
 import App from "@@/App";
-import routes from "@@/plugins/routes";
+import routes from "~pages";
 import i18n from "@@/plugins/i18n";
 
 const routerOptions: RouterOptions = {
